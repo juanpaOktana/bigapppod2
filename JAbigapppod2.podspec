@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "JAbigapppod2"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "This is a description for this big app pod."
 
   s.homepage     = "https://github.com/juanpaOktana/bigapppod2"
@@ -27,6 +27,5 @@ s.resources = "bigapppod2/*.{png,jpeg,jpg,storyboard,xib}","*.{png,jpeg,jpg,stor
 
   s.requires_arc = true
 
-   s.dependency 'Alamofire'
 
 end

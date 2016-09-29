@@ -8,21 +8,22 @@
 
 import UIKit
 
-class hellopod: UIViewController {
+public class hellopod: UIViewController {
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
+    public override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
     @IBAction func close() {
         
+        self.navigationController?.popViewControllerAnimated(true)
     }
 
     /*

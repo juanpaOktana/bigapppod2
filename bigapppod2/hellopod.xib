@@ -16,13 +16,13 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello pod" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ABz-as-fz6">
-                    <rect key="frame" x="263" y="289" width="73.5" height="21"/>
+                    <rect key="frame" x="263" y="289" width="74" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Da-GA-Tfy">
-                    <rect key="frame" x="280.5" y="348" width="39" height="30"/>
+                    <rect key="frame" x="281" y="348" width="39" height="30"/>
                     <state key="normal" title="Close"/>
                     <connections>
                         <action selector="close" destination="-1" eventType="touchUpInside" id="qLD-vt-4hd"/>

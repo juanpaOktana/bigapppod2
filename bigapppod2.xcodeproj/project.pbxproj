@@ -10,6 +10,7 @@
 		6C6CB7151D9D661400338268 /* bigapppod2.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C6CB7141D9D661400338268 /* bigapppod2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C6CB71E1D9D663B00338268 /* hellopod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6CB71C1D9D663B00338268 /* hellopod.swift */; };
 		6C6CB71F1D9D663B00338268 /* hellopod.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C6CB71D1D9D663B00338268 /* hellopod.xib */; };
+		6CBB77C51D9D94560017C876 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBB77C41D9D94560017C876 /* UIKit.framework */; };
 		6CE5E1480975B4BE69416761 /* Pods_bigapppod2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7E13AFDDF1E23E6C7B1E27 /* Pods_bigapppod2.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,6 +20,7 @@
 		6C6CB7161D9D661400338268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C6CB71C1D9D663B00338268 /* hellopod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hellopod.swift; sourceTree = "<group>"; };
 		6C6CB71D1D9D663B00338268 /* hellopod.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = hellopod.xib; sourceTree = "<group>"; };
+		6CBB77C41D9D94560017C876 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D11AF09B4CEE1039FCC26EA8 /* Pods-bigapppod2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bigapppod2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bigapppod2/Pods-bigapppod2.debug.xcconfig"; sourceTree = "<group>"; };
 		DD7E13AFDDF1E23E6C7B1E27 /* Pods_bigapppod2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bigapppod2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B866B625B11C8DA730F7C3 /* Pods-bigapppod2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bigapppod2.release.xcconfig"; path = "Pods/Target Support Files/Pods-bigapppod2/Pods-bigapppod2.release.xcconfig"; sourceTree = "<group>"; };
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CBB77C51D9D94560017C876 /* UIKit.framework in Frameworks */,
 				6CE5E1480975B4BE69416761 /* Pods_bigapppod2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,6 +42,7 @@
 		383653AD6EE8FDF3DED78F53 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6CBB77C41D9D94560017C876 /* UIKit.framework */,
 				DD7E13AFDDF1E23E6C7B1E27 /* Pods_bigapppod2.framework */,
 			);
 			name = Frameworks;
